@@ -14,6 +14,7 @@ public class SandwichShop {
 
         // Variable to store sandwich price
         double price;
+
         // Price determined
         if (size == 1) {
             price = 5.45;
