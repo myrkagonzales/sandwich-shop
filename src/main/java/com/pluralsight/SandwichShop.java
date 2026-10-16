@@ -34,10 +34,6 @@ public class SandwichShop {
 
         }
 
-
-
-
-
         // Ask the User for their age
         System.out.print("Enter your age: ");
         int age = subway.nextInt();
