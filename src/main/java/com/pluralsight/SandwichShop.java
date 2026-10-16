@@ -24,7 +24,10 @@ public class SandwichShop {
         // Ask user if they want a loaded sandwich
         System.out.print("Would you like a loaded sandwich? (Yes/No: ");
         String loaded = subway.next();
-        // Store users loaded sandwich choice
+        // add extra charge for loaded sandwiches
+        if (loaded.equalsIgnoreCase("Yes")) {
+
+        }
 
 
 
