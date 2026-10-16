@@ -22,6 +22,11 @@ public class SandwichShop {
             price = 8.95;
         }
 
+        // Ask the User for their age
+        System.out.print("Enter your age: ");
+        int age = subway.nextInt();
+
+
 
 
     }
