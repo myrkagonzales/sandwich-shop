@@ -26,6 +26,11 @@ public class SandwichShop {
         String loaded = subway.next();
         // add extra charge for loaded sandwiches
         if (loaded.equalsIgnoreCase("Yes")) {
+            if (size == 1) {
+                price += 1.00; // added extra amount to a regular loaded sandwich
+            } else {
+                price += 1.75; // added extra amount to a large loaded sandwich
+            }
 
         }
 
