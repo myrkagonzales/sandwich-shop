@@ -15,10 +15,9 @@ public class SandwichShop {
         // Variable to store sandwich price
         double price;
         // Price determined
-        if (size == 1){
+        if (size == 1) {
             price = 5.45;
-        }
-        else {
+        } else {
             price = 8.95;
         }
 
@@ -35,6 +34,10 @@ public class SandwichShop {
         }
         // Display final sandwich price
         System.out.printf("Your sandwich costs $%.2f", price);
+
+        // close scanner
+        subway.close();
+
 
     }
 }
