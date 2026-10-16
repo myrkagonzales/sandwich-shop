@@ -22,6 +22,11 @@ public class SandwichShop {
             price = 8.95;
         }
         // Ask user if they want a loaded sandwich
+        System.out.print("Would you like a loaded sandwich? (Yes/No: ");
+        String loaded = subway.next();
+        // Store users loaded sandwich choice
+
+
 
 
 
