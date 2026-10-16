@@ -12,6 +12,9 @@ public class SandwichShop {
         System.out.print("Enter sandwich size (1-6-inch, 2-12-inch): ");
         int size = subway.nextInt();
 
+        // Variable to store sandwich price
+        double price;
+
 
 
     }
