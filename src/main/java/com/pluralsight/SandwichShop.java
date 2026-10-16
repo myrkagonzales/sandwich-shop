@@ -8,6 +8,10 @@ public class SandwichShop {
         // Import Scanner
         Scanner subway = new Scanner(System.in);
 
+        // ask user which size sandwich they want
+        System.out.print("Enter sandwich size (1-6-inch, 2-12-inch): ");
+        int size = subway.nextInt();
+
 
 
     }
