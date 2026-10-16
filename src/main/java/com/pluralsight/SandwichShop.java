@@ -21,6 +21,9 @@ public class SandwichShop {
         } else {
             price = 8.95;
         }
+        // Ask user if they want a loaded sandwich
+
+
 
         // Ask the User for their age
         System.out.print("Enter your age: ");
@@ -35,6 +38,7 @@ public class SandwichShop {
         }
         // Display final sandwich price
         System.out.printf("Your sandwich costs $%.2f", price);
+
 
         // close scanner
         subway.close();
