@@ -6,11 +6,11 @@ public class SandwichShop {
     public static void main(String[] args) {
 
         // Import Scanner
-        Scanner subway = new Scanner(System.in);
+        Scanner sándwich = new Scanner(System.in);
 
         // ask user which size sandwich they want
         System.out.print("Enter sandwich size (1-Regular, 2-Large): ");
-        int size = subway.nextInt();
+        int size = sándwich.nextInt();
 
         // Variable to store sandwich price
         double price;
@@ -23,7 +23,7 @@ public class SandwichShop {
         }
         // Ask user if they want a loaded sandwich
         System.out.print("Would you like a loaded sandwich? (Yes/No: ");
-        String loaded = subway.next();
+        String loaded = sándwich.next();
         // add extra charge for loaded sandwiches
         if (loaded.equalsIgnoreCase("Yes")) {
             if (size == 1) {
@@ -31,12 +31,10 @@ public class SandwichShop {
             } else {
                 price += 1.75; // added extra amount to a large loaded sandwich
             }
-
         }
-
         // Ask the User for their age
         System.out.print("Enter your age: ");
-        int age = subway.nextInt();
+        int age = sándwich.nextInt();
         // Apply 10% discount for students (17 or younger)
         if (age <= 17) {
             price = price * 0.90;
@@ -48,9 +46,8 @@ public class SandwichShop {
         // Display final sandwich price
         System.out.printf("Your sandwich costs $%.2f", price);
 
-
         // close scanner
-        subway.close();
+        sándwich.close();
 
 
     }
